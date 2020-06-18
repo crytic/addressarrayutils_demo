@@ -1,5 +1,5 @@
 prefix: crytic_
-timeout: 300
+timeout: 600
 coverage: true
 format: "text"
 testLimit: 10000
