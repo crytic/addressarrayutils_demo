@@ -1,0 +1,6 @@
+prefix: crytic_
+timeout: 300
+checkAsserts: true
+coverage: true
+format: "text"
+testLimit: 10000
