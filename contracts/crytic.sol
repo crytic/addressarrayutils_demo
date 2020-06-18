@@ -53,7 +53,7 @@ contract TEST {
     return hasDup == AddressArrayUtils.hasDuplicate(addrs1);
   }
 
-  function echidna_remove() public view returns (bool) {
+  function crytic_remove() public view returns (bool) {
     if (!everSet) {
       return true;
     }
@@ -88,7 +88,7 @@ contract TEST {
     return true;
   }
 
-  function echidna_revert_remove() public view returns (bool) {
+  function crytic_revert_remove() public view returns (bool) {
     if (!everSet) {
       revert();
     }
