@@ -25,7 +25,7 @@ contract TEST {
   function push_it_both() public {
     if (everSet) {
       addrs1.push(a);
-      addrs2.push(1);      
+      addrs2.push(a);      
     }
   }
 
